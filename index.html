@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="hover/hover-min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,39 +14,63 @@
 <body>
 
 <div class="wrapper">
-<header>
-  <nav>
-    <div class="menu-icon">
-      <i class="fa fa-bars fa-2x"></i>
+  <header>
+    <nav>
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+          </div>
+        <div class="logo">
+           Patrik Dahlborg
         </div>
-      <div class="logo">
-         Patrik Dahlborg
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">FAFA</a></li>
-          <li><a href="">FEFE</a></li>
-        </ul>
-      </div>
+        <div class="menu">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">FAFA</a></li>
+            <li><a href="">FEFE</a></li>
+          </ul>
+        </div>
+    </nav>
+  </header>
 
-  </nav>
-</header>
 
-  <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, deleniti, dolorem! Voluptas explicabo natus, aperiam commodi facilis voluptates similique, ducimus debitis velit dolorem ipsa aliquam, earum non aspernatur sed vero illo tenetur iste quidem iure saepe asperiores. Repellat ab modi, exercitationem accusamus accusantium minima! Aspernatur animi labore est, saepe deserunt.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, deleniti, dolorem! Voluptas explicabo natus, aperiam commodi facilis voluptates similique, ducimus debitis velit dolorem ipsa aliquam, earum non aspernatur sed vero illo tenetur iste quidem iure saepe asperiores. Repellat ab modi, exercitationem accusamus accusantium minima! Aspernatur animi labore est, saepe deserunt.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, deleniti, dolorem! Voluptas explicabo natus, aperiam commodi facilis voluptates similique, ducimus debitis velit dolorem ipsa aliquam, earum non aspernatur sed vero illo tenetur iste quidem iure saepe asperiores. Repellat ab modi, exercitationem accusamus accusantium minima! Aspernatur animi labore est, saepe deserunt.</p>
+  <div class="content container-fluid">
+    <div class="projimgs row">
+      <div id="project-wrapper">
+        <div class="col-md-12 projectrow">
+          <a class="hvr-float" href=""><div id="project1" class="projimg col-xs-4"></div></a>
+          <a class="hvr-float" href=""><div id="project2" class="projimg col-xs-4"></div></a>
+        </div>
+          <div class="col-md-12 projectrow">
+          <a class="hvr-float" href=""><div id="project3" class="projimg col-xs-4"></div></a>
+          <a class="hvr-float" href=""><div id="project4"class="projimg col-xs-4"></div></a>
+        </div>
+          <div class="col-md-12">
+          <div id="more-projects" class="col-xs-2"><a href="">More Projects</a></div>
+        </div>
+      </div>
+    </div>
   </div>
-
 </div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div id="profile" class="col-md-6">
+      <img src="img/profile.png" alt="">
+    </div>
+    <div class="col-md-6">
+      <h1>&lt;hi><br>&lt;div id="patrik" class="coder"><br></h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eveniet amet, blanditiis cumque itaque dignissimos a, minima explicabo, quaerat reiciendis aliquam fugit labore enim beatae excepturi qui exercitationem sequi accusantium?</h3>
+      <h1>&lt;/div><br>&lt;/hi></h1>
+    </div>
+  </div>
+</div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/scripts.js"></script>
   </body>
